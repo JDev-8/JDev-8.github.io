@@ -3,13 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Practica de Bootstrap</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>Practica Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/index.css" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand fs-4" href="#">Paises latinoamericanos</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,38 +49,38 @@
       <hr>
       <ul class="mynav nav nav-pills flex-column mb-auto">
                     <li class="nav-item mb-1">
-                        <a href="#" class="active">
+                        <a href="index.html" class="active">
                             <i class="fa-solid fa-wave-square"></i>
                             Inicio
                         </a>
                     </li>
                     <li class="nav-item mb-1">
-                        <a href="#" class="">
+                        <a href="datos-region.html" id="datos_region" >
                             <i class="fa-solid fa-bell"></i>
                             Datos de la región
                             <span class="notification-badge">5</span>
                         </a>
                     </li>
                     <li class="nav-item mb-1">
-                        <a href="#" class="">
+                        <a href="economia.html" id="economia">
                             <i class="fa-solid fa-chart-simple"></i>
                             Economía
                         </a>
                     </li>
                     <li class="nav-item mb-1">
-                        <a href="#" class="">
+                        <a href="cultura.html" id="cultura">
                             <i class="fa-solid fa-star"></i>
                             Cultura
                         </a>
                     </li>
                     <li class="nav-item mb-1">
-                        <a href="#" class="">
+                        <a href="comercio.html" id="comercio">
                             <i class="fa-solid fa-cart-shopping"></i>
                             Comercio
                         </a>
                     </li>
                     <li class="nav-item mb-1">
-                        <a href="#" class="">
+                        <a href="dato-curioso.html" id="dato_curioso">
                             <i class="fa-solid fa-magnifying-glass"></i>
                             Datos curiosos
                         </a>
@@ -77,7 +88,7 @@
                 </ul>
     </div>
     <div></div>
-    <section class="container my-3">
+    <section class="container my-3" id="container_main">
       <div class="row">
         <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 bg-white py-4">
           <h2 class="text-secondary">Formulario de países</h2>
@@ -154,6 +165,11 @@
       </div>
     </section>
   </section>
-    <script src="js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
   </body>
 </html>
